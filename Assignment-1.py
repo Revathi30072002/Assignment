@@ -10,6 +10,6 @@ def sub_str(s,x):
     min_str = [substr for substr in sub_str if len(substr) == min_len]
     for substr in min_str:
         print(substr)
-s = "abccdbacca"
+s = str(input("Enter a string: "))
 x = int(input("Enter an integer: "))
 sub_str(s,x)
